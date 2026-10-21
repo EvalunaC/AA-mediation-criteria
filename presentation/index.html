@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>Quantifying Mediated Treatment Effects to Strengthen Accelerated Approval Evidence in Oncology</title>
+
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<!-- Theme: see dist/theme/ for the alternatives (black, white, simple, serif, ...) -->
+		<link rel="stylesheet" href="dist/theme/white.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- Title slide -->
+				<section>
+					<h2>Quantifying Mediated Treatment Effects to Strengthen Accelerated Approval Evidence in Oncology</h2>
+					<p>Author names &middot; Affiliation</p>
+					<p><small>Conference name &middot; 2026</small></p>
+					<aside class="notes">
+						Speaker notes go here. Press S during the talk to open the notes window.
+					</aside>
+				</section>
+
+				<!-- Outline (placeholder) -->
+				<section>
+					<h2>Outline</h2>
+					<ol>
+						<li>Background: accelerated approval and surrogate endpoints</li>
+						<li>Mediated treatment effects in a multi-state model</li>
+						<li>Decision criteria and calibrated thresholds</li>
+						<li>Simulation results</li>
+						<li>Case study: panitumumab + FOLFOX (study 20050203)</li>
+					</ol>
+				</section>
+
+				<!-- Example: a slide written in Markdown -->
+				<section data-markdown>
+					<textarea data-template>
+						## A slide written in Markdown
+
+						- Bullet points work as usual
+						- Figures go in `assets/`, for example `![](assets/fig3.png)`
+						- Use `---` inside this block to start a new slide
+					</textarea>
+				</section>
+
+				<!-- Example: math rendered with KaTeX -->
+				<section>
+					<h2>Math example</h2>
+					<p>Decision rule based on the mediated proportion at interim cut \(t\):</p>
+					\[ \text{declare benefit if } \; \widehat{\mathrm{PM}}(t) \ge \Delta^{*}_{t} \]
+					<p><small>Edit or delete this slide; the math plugin is loaded in the script block below.</small></p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="dist/plugin/notes.js"></script>
+		<script src="dist/plugin/markdown.js"></script>
+		<script src="dist/plugin/highlight.js"></script>
+		<script src="dist/plugin/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				slideNumber: 'c/t',
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX],
+			});
+		</script>
+	</body>
+</html>

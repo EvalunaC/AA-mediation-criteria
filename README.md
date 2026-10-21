@@ -32,6 +32,7 @@ patches/      two fixes applied on load: robust MCMC initialization for
 analysis/     reproduces every table and figure from the raw fits (fast)
 data/         raw fits land here (not tracked; see below)
 output/       tables/ and figures/ (not tracked)
+presentation/ conference slides (reveal.js); see presentation/README.md
 ```
 
 ## Regenerating the raw data
